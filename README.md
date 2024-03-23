@@ -12,7 +12,7 @@ You have to provide the Omnivore API access token in the TOKEN environment varia
 
 Windows:
 
-`set TOKEN="a56780c3-78e6-4c29-9f34-d865834ff6b8"`
+`set TOKEN=a56780c3-78e6-4c29-9f34-d865834ff6b8`
 
 Linux/Mac:
 
