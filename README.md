@@ -6,6 +6,11 @@
 
 `pip install "gql[all]"`
 
+### virtual env
+python -m venv .venv
+. .venv/bin/activate
+pip install -r requirements.txt
+
 ### API Key
 
 You have to provide the Omnivore API access token in the TOKEN environment variable:
@@ -24,4 +29,4 @@ Linux/Mac:
 
 Linux/Mac users might run something like this:
 
-`./backup.py >omnivore-$(date +"%Y%m%d").csv`
+`./backup.py >/tmp/omnivore-$(date +"%Y%m%d").csv`
