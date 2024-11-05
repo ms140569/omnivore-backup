@@ -7,11 +7,14 @@
 `pip install "gql[all]"`
 
 ### virtual env
-`
+
+```
 python -m venv .venv
+
 . .venv/bin/activate
+
 pip install -r requirements.txt
-`
+```
 
 ### API Key
 
